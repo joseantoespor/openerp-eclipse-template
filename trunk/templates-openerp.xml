@@ -161,4 +161,22 @@ ${cursor}</template><template autoinsert="true" context="org.python.pydev.editor
 	}, ${cursor}</template><template autoinsert="true" context="org.python.pydev.editor.templates.python" deleted="false" description="wizard States : print" enabled="true" name="wizard States : print">'${report}':{
 	'actions': [],
 	'result': {'type':'print', 'report':'${modelreportname}', 'state':'${end}'}
-	}, ${cursor}</template></templates>
+	}, ${cursor}</template>
+<template autoinsert="true" context="org.python.pydev.editor.templates.python" deleted="false" description="__terp__" enabled="true" name="__terp__">{
+    "name": "${name}",
+    "version": "1.0",
+    "depends": ["base"],
+    "author": "${author}",
+    "category": "${category}",
+    "description": """
+    This module provide :
+    ${cursor}
+    """,
+    "init_xml": ["${cursor}"],
+    'update_xml': ["${cursor}"],
+    'demo_xml': ["${cursor}"],
+    'installable': True,
+    'active': False,
+#    'certificate': '${certificate}',
+}</template>
+</templates>
