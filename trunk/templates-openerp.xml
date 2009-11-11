@@ -91,6 +91,7 @@ class ${ClassName}(osv.osv):
 			${cursor}
 		}
 ${ClassName}()</template><template autoinsert="true" context="org.python.pydev.editor.templates.python" deleted="false" description="OpenERP License" enabled="true" name="OpenERP License">
+# -*- encoding: utf-8 -*-
 ##############################################################################
 #
 #    OpenERP, Open Source Management Solution    
@@ -172,9 +173,9 @@ ${cursor}</template><template autoinsert="true" context="org.python.pydev.editor
     This module provide :
     ${cursor}
     """,
-    "init_xml": ["${cursor}"],
-    'update_xml': ["${cursor}"],
-    'demo_xml': ["${cursor}"],
+    "init_xml": [],
+    'update_xml': [],
+    'demo_xml': [],
     'installable': True,
     'active': False,
 #    'certificate': '${certificate}',
