@@ -35,7 +35,7 @@
 		   &lt;!-- &lt;field name="domain"&gt;[('field_name','condition',criteria)]&lt;/field&gt;--&gt;
                 &lt;field name="view_type"&gt;form&lt;/field&gt;
                 &lt;field name="view_mode"&gt;tree,form&lt;/field&gt;
-                &lt;field name="view_id" ref="${objectname}_tree_view"/&gt;
+                &lt;field name="view_id" ref="${object_name}_tree_view"/&gt;
             &lt;/record&gt;
 
 			&lt;menuitem id="${object_name}_menu" name="${objectname}" parent="${cursor}" action="action_${object_name}_tree_view"/&gt;
